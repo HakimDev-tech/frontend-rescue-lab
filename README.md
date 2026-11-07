@@ -1,30 +1,30 @@
-# Frontend Rescue
+# Frontend Rescue Lab
 
-**Details that make the difference.**
+A hands-on frontend quality teardown. The page compares a deliberately rough interface with a refined version and exposes a small interactive review checklist.
 
-Frontend Rescue is a technical demonstration focused on identifying, diagnosing, and correcting common frontend implementation problems.
+## Art direction
 
-The project presents intentionally flawed interface examples and their improved implementations, documenting the engineering decisions behind each correction.
+A technical field-notes aesthetic: warm paper, blueprint grid, precise cobalt accents, Space Grotesk display type and mono metadata. It is intentionally different from generic agency landing pages. The hero illustration is built from CSS geometry and typographic annotations, not an AI-generated abstract background.
 
-Instead of simply presenting a visually attractive result, the project demonstrates the ability to understand frontend defects, identify root causes, implement robust solutions, and verify the outcome.
+## What the demo shows
 
-### Core objectives
+- Before/after state switch for a small project dashboard.
+- Functional navigation selection inside the demo.
+- Interactive quality checklist with a live completion meter.
+- Responsive behavior for narrow screens.
+- Semantic controls, visible focus styles and reduced-motion support.
 
-- Demonstrate practical frontend debugging skills.
-- Improve responsive behavior across screen sizes.
-- Correct spacing and visual inconsistencies.
-- Improve semantic HTML and accessibility.
-- Build reusable and maintainable UI components.
-- Document the reasoning behind every repair.
-- Validate fixes with automated tests where appropriate.
+## Stack
 
-### Target audience
+Next.js App Router, React, TypeScript and custom CSS.
 
-- Businesses with poorly implemented websites.
-- Agencies needing frontend support.
-- Product teams with UI consistency issues.
-- Developers evaluating frontend engineering capabilities.
+## Run locally
 
-### Positioning
+```bash
+npm install
+npm run dev
+```
 
-Practical frontend fixes. Cleaner interfaces. Better user experiences.
+## Scope note
+
+This is a demonstration of frontend review patterns, not a claim of measured client outcomes or an audit of a real production product.
